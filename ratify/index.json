@@ -1,0 +1,30 @@
+{
+    "title": "Ratify",
+    "description": "Ratify Demo",
+    "details": {
+      "intro": {
+        "text": "intro.md",
+        "foreground": "foreground.sh",
+        "background": "background.sh"
+      },
+      "steps": [
+        {
+          "title": "Ratify",
+          "text": "step-1.md"
+        }
+      ],
+      "assets": {
+      "host01": [
+        {"file": "dashboard.admin-user.yml", "target": "/root/filesystem/opt", "chmod": "+w"},
+        {"file": "dashboard.admin-user-role.yml", "target": "/root/filesystem/opt", "chmod": "+w"},
+        {"file": "charts/**/*.*", "target": "~/", "chmod": "+w"}
+      ]
+    },
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "backend": {
+      "imageid": "kubernetes-k3s-1node-4GB"
+    }
+  }

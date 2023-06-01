@@ -1,0 +1,25 @@
+{
+    "title": "Notation Demo",
+    "description": "Installing and using Notation",
+    "details": {
+      "intro": {
+        "text": "intro.md"
+      },
+      "steps": [
+        {
+          "title": "Installing Notation",
+          "text": "step-1.md"
+        },
+        {
+          "title": "Sign and validate a container image",
+          "text": "step-2.md"
+        }
+      ],
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "backend": {
+      "imageid": "kubernetes-k3s-1node"
+    }
+  }

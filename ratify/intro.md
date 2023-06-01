@@ -1,0 +1,1 @@
+Setting up [Ratify](https://deislabs.github.io/ratify/)
