@@ -10,10 +10,10 @@ We are going to it install it from from Github.
 
 ## Setting Environment variable
 
-To the version of notation you want to download. The current latest version is `1.0.0-rc.6` so we are going to set it for downloading same version.
+To the version of notation you want to download. The current latest version is `1.0.0-rc.7` so we are going to set it for downloading same version.
 
 ```
-export NOTATION_VERSION=1.0.0-rc.6
+export NOTATION_VERSION=1.0.0-rc.7
 ```{{exec}}
 
 ### Downloading Notation CLI
@@ -30,13 +30,13 @@ To confirm that binary is downloaded fine.
 
 ```
 curl -LO https://github.com/notaryproject/notation/releases/download/v$NOTATION_VERSION/notation_$NOTATION_VERSION\_checksums.txt
-shasum --check notation_1.0.0-rc.6_checksums.txt | grep "notation_1.0.0-rc.6_linux_amd64.tar.gz"
+shasum --check notation_$NOTATION_VERSION_checksums.txt | grep "notation_$NOTATION_VERSION_linux_amd64.tar.gz"
 ```{{exec}}
 
 ### Installing Notation 
 
 ```
-tar xvzf notation_1.0.0-rc.6_linux_amd64.tar.gz -C /usr/bin/ notation
+tar xvzf notation_$NOTATION_VERSION_linux_amd64.tar.gz -C /usr/bin/ notation
 ```{{exec}}
 
 ### Verify install 
