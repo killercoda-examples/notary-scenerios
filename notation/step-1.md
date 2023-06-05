@@ -30,13 +30,13 @@ To confirm that binary is downloaded fine.
 
 ```
 curl -LO https://github.com/notaryproject/notation/releases/download/v$NOTATION_VERSION/notation_$NOTATION_VERSION\_checksums.txt
-shasum --check notation_$NOTATION_VERSION_checksums.txt | grep "notation_$NOTATION_VERSION_linux_amd64.tar.gz"
+shasum --check notation_$NOTATION_VERSION\_checksums.txt | grep "notation_$NOTATION_VERSION\_linux_amd64.tar.gz"
 ```{{exec}}
 
 ### Installing Notation 
 
 ```
-tar xvzf notation_$NOTATION_VERSION_linux_amd64.tar.gz -C /usr/bin/ notation
+tar xvzf notation_$NOTATION_VERSION\_linux_amd64.tar.gz -C /usr/bin/ notation
 ```{{exec}}
 
 ### Verify install 
