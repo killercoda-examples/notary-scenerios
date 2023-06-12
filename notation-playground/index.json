@@ -1,0 +1,17 @@
+{
+    "title": "Notation Playground",
+    "description": "Playground with latest version of notation",
+    "details": {
+      "intro": {
+        "text": "intro.md",
+        "foreground": "foreground.sh",
+        "background": "background.sh"
+      },
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "backend": {
+      "imageid": "kubernetes-k3s-1node"
+    }
+  }
