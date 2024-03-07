@@ -13,7 +13,7 @@ We are going to it install it from from Github.
 To the version of notation you want to download. The current latest version is `1.0.0-rc.7` so we are going to set it for downloading same version.
 
 ```
-export NOTATION_VERSION=1.0.0-rc.7
+export NOTATION_VERSION=1.1.0
 ```{{exec}}
 
 ### Downloading Notation CLI
